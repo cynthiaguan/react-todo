@@ -1,6 +1,6 @@
-import {ADD_TODO, DELETE_TODO, UPDATE_TODO, FETCH_TODO, FETCH_TODO_LIST} from './actionTypes';
+import { ADD_TODO, DELETE_TODO, UPDATE_TODO, FETCH_TODO, FETCH_TODO_LIST } from './actionTypes';
 
-let nextTodoId = 100
+let nextTodoId = 100;
 
 export const addTodo = (item) => {
     return {
